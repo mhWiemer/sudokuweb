@@ -1,0 +1,8 @@
+1. Activeer Create als deze mode aan staat of laat zien dat deze actief is.
+2. Kleur buttons als het getal overal is ingevuld
+3. Laat zien waar een fout zit.
+4. Detecteer als sudoku klaar is
+
+
+5. Zorg dat het eerst gekozen nummer als pecil wordt gezet als een ander getal wordt toegevoegd
+

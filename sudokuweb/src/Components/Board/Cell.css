@@ -1,0 +1,101 @@
+div {
+	font-family:monospace;
+}
+
+.cellSize {
+	width:inherit;
+	text-align:center;
+	padding: 0;
+	margin: 0;
+	overflow: hidden;
+}
+
+.borderRight{
+	border-right: 2px solid red;
+}
+
+.borderBottom{
+	border-bottom: 2px solid red;
+}
+
+.numberStyle{
+	font-family:sans-serif;
+}
+
+.pencil {
+	font-family:monospace;
+	position:sticky;
+	top: 0px;
+	vertical-align: top;
+	
+}
+
+
+@media (min-width: 400px) {
+	.cellSize {
+		min-width: 30px;
+		min-height:30px;
+	}
+	.numberStyle{
+		font-size: 18px;
+		font-weight: 700;
+		padding-top: 4px;
+	}
+	.pencil{
+			font-size: 9px;
+	}
+}
+
+
+@media (min-width: 1250px) {
+    .cellSize {
+        min-width: 42px;
+        min-height: 42px;
+    }
+
+    .numberStyle {
+        font-size: 24px;
+        font-weight: 700;
+        padding-top: 6px;
+    }
+
+    .pencil {
+        font-size: 12px;
+    }
+}
+
+/*
+@media (min-width: 920px) {
+	.cellSize {
+		min-width: 42px;
+		min-height:42px;
+	}
+	.numberStyle{
+		font-size: 24px;
+		font-weight: 700;
+		padding-top: 6px;
+	}
+	.pencil{
+			font-size: 12px;
+	}
+}
+
+@media (min-width: 1250px) {
+	.cellSize {
+		min-width: 60px;
+		min-height:60px;
+	}
+	.numberStyle{
+		font-size: 32px;
+		font-weight: 700;
+		padding-top: 10px;
+	}
+	.pencil{
+			font-size: 15px;
+	}
+}
+
+    */
+
+
+

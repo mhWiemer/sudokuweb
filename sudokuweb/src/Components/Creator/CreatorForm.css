@@ -1,0 +1,44 @@
+.Creator{
+	display:grid;
+	grid-template-columns: 1fr 2fr;
+	
+}
+
+.FirstColumn{
+	grid-column: 1;
+	text-align: right;
+	margin-right: 5px;
+	margin-bottom: 10px;
+}
+
+.SecondColumn{
+	grid-column: 2;
+	text-align: left;
+	margin-left: 5px;
+	margin-bottom: 10px;
+}
+
+.Button {
+    background-color: transparent;
+    border: none;
+    color: black;
+    outline: none;
+    cursor: pointer;
+    font: inherit;
+    padding: 10px;
+    margin: 10px;
+    font-weight: bold;
+}
+
+.Button:first-of-type {
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.Success {
+    color: #5C9210;
+}
+
+.Danger {
+    color: #944317;
+}
